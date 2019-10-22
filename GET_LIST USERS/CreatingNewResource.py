@@ -10,5 +10,5 @@ response = requests.post(url)
 file = open('C:\\Users\\izabe\\Desktop\\API_tests', 'r')
 json_input = file.read()
 resquest_json = json.loads(json_input)
-
+#sds
 print(resquest_json)
